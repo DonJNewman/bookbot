@@ -4,11 +4,11 @@ def text_split(filestring):
     return text_word_count
 
 def char_counter(filestring):
+    char_dict={}
     for char in filestring:
-        print(char)
-    return None
-
-
-#iterate through string
-#convert current iterated string to lower case
-# update a dictionary w a counter for that char
+        lowercase = char.lower()
+        if not lowercase in char_dict:
+            char_dict[lowercase] = 1
+        else:
+             char_dict[lowercase] += 1    
+    return char_dict 
