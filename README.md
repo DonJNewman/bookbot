@@ -1,2 +1,3 @@
 # bookbot
-a bot for books (: command piping and such to return counts from texts
+
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
